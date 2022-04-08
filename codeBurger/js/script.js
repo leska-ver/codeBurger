@@ -12,6 +12,7 @@ function burgerMenu(selector) {
   links.on('click', () => toggleMenu());
   overlay.on('click', () => toggleMenu());
 
+  //Клик в любом месте закроет бургер
   function toggleMenu() {
     menu.toggleClass('burger-menu_active');
 
